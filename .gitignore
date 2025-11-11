@@ -1,0 +1,129 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env.*
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+*.log
+
+# FastAPI (no specific files, covered by Python ignores)
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# pytest
+.cache/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.coverage
+*.py,cover
+.hypothesis/
+.tox/
+
+# Liquibase
+liquibase.properties
+liquibase.log
+liquibase.*
+*.lock
+
+# Vault
+.vault-token
+vault-token
+*.vault
+
+# Sentry (no local files to ignore)
+
+# Prometheus/Grafana (no local files to ignore)
+
+# Docker
+*.pid
+*.seed
+*.bak
+*.swp
+*.tmp
+docker-compose.override.yml
+docker-compose.*.yml
+.docker/
+**/tmp/
+**/logs/
+**/log/
+
+# Redis (no local files to ignore)
+
+# PostgreSQL
+*.sql~
+*.dump
+*.backup
+
+# React
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/frontend/build/
+/frontend/.env
+/frontend/.env.*
+
+# General
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.orig
+*.bak
+*.tmp
+*.temp
+
+# Editor/IDE
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# GitHub Actions
+.github/workflows/*.secrets
+.github/workflows/*.env
+
+# Bandit
+bandit.yaml
+
+# OWASP ZAP
+zap.log
+zap-report.html
+zap-report.json
+
+# Misc
+*.iml
+*.ipr
+*.iws
+*.db
+
+# Ignore test output
+test-results/
+test-output/
+test-reports/
+
+# Ignore local secrets
+secrets.*
+secret.*
+*.secret
+*.secrets
+
+# Ignore metrics/monitoring output
+metrics/
+monitoring/
+prometheus_data/
+grafana_data/
